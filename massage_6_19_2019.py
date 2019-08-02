@@ -40,7 +40,6 @@ if (len(driver.window_handles)==2):
     driver.close()
     driver.switch_to.window(window_name=driver.window_handles[0])
     
-#gosh i am so proud of myself
 
 obj = Select(driver.find_element_by_name("compDropDownList"))
 obj.select_by_visible_text('AIG損害保険株式会社')
@@ -53,7 +52,7 @@ password.send_keys("XNNMAN@1990")
 
 driver.find_element_by_name("btnLogin").click()
 time.sleep(5)
-#so far so good, a big progress
+
 
 #driver.find_element_by_link_text("神谷町　MTビル").click()
 
